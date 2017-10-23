@@ -39,7 +39,7 @@ public class Zoo {
 
     public void timePasses() {
         System.out.println("The animals get hungry as time passes...");
-        
+
         if (cage1 != null) {
             cage1.timePasses();
         }

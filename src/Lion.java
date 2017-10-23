@@ -6,7 +6,7 @@ public class Lion extends Animal {
     public void timePasses() {
         super.timePasses();
 
-        if (getHunger() >= 3) {
+        if (super.getHunger() >= 3) {
             System.out.println("The Lion paces hungrily.");
         }
     }
