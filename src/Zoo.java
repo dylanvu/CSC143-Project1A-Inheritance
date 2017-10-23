@@ -67,6 +67,7 @@ public class Zoo {
 
     public void feedAll() {
         System.out.println("The zookeeper feeds all the animals.");
+
         if (cage1 != null) {
             cage1.feed();
         }

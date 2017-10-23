@@ -1,23 +1,22 @@
-public class Zoo {
+public class Main {
     public static void main(String[] args) {
+        Bear rilakuma = new Bear();
+        Lion simba = new Lion();
         Zebra joe = new Zebra();
-        System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
-        joe.talk();
-        joe.timePasses();
-        System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
-        joe.feed();
-        System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
 
+        Zoo zoo = new Zoo();
+        zoo.putInCage1(rilakuma);
+        zoo.putInCage2(simba);
+        zoo.putInCage3(joe);
+
+        zoo.print();
         System.out.println();
 
-        Lion simba = new Lion();
-        System.out.println("Lion Simba's Hunger: " + simba.getHunger());
-        simba.talk();
-        simba.timePasses();
-        simba.timePasses();
-        simba.timePasses();
-        System.out.println("Lion Simba's Hunger: " + simba.getHunger());
-        simba.feed();
-        System.out.println("Lion Simba's Hunger: " + simba.getHunger());
+        zoo.allTalk();
+        zoo.timePasses();
+        zoo.timePasses();
+        zoo.timePasses();
+        System.out.println("The animals get hungry as time passes...");
+        zoo.feedAll();
     }
 }
