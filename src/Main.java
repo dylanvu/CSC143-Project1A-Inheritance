@@ -16,7 +16,6 @@ public class Main {
         zoo.timePasses();
         zoo.timePasses();
         zoo.timePasses();
-        System.out.println("The animals get hungry as time passes...");
         zoo.feedAll();
     }
 }
