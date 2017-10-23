@@ -13,5 +13,9 @@ public abstract class Animal {
         this.hunger += 1;
     }
 
+    public void feed() {
+        this.hunger = 0;
+    }
+
     public abstract void talk();
 }

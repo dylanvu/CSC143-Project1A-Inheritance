@@ -4,7 +4,9 @@ public class Zoo {
         System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
         joe.talk();
         joe.timePasses();
-        System.out.println("Zebra Joe's Hunger grows as time passes: " + joe.getHunger());
+        System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
+        joe.feed();
+        System.out.println("Zebra Joe's Hunger: " + joe.getHunger());
 
         System.out.println();
 
@@ -12,6 +14,10 @@ public class Zoo {
         System.out.println("Lion Simba's Hunger: " + simba.getHunger());
         simba.talk();
         simba.timePasses();
-        System.out.println("Lion Simba's Hunger grows as time passes: " + simba.getHunger());
+        simba.timePasses();
+        simba.timePasses();
+        System.out.println("Lion Simba's Hunger: " + simba.getHunger());
+        simba.feed();
+        System.out.println("Lion Simba's Hunger: " + simba.getHunger());
     }
 }
