@@ -6,4 +6,8 @@ public class Zebra extends Animal {
     public void talk() {
         System.out.println("The Zebra quietly chews.");
     }
+
+    public String toString() {
+        return "Zebra";
+    }
 }

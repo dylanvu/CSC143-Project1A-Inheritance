@@ -14,4 +14,8 @@ public class Lion extends Animal {
     public void talk() {
         System.out.println("Lion: \"Roar!\"");
     }
+
+    public String toString() {
+        return "Lion";
+    }
 }
