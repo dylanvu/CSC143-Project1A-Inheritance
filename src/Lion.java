@@ -3,7 +3,15 @@ public class Lion extends Animal {
         super();
     }
 
+    public void timePasses() {
+        super.timePasses();
+
+        if (getHunger() >= 3) {
+            System.out.println("The Lion paces hungrily.");
+        }
+    }
+
     public void talk() {
-        System.out.println("Roar!");
+        System.out.println("Lion: \"Roar!\"");
     }
 }

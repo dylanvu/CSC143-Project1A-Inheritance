@@ -9,5 +9,9 @@ public abstract class Animal {
         return this.hunger;
     }
 
+    public void timePasses() {
+        this.hunger += 1;
+    }
+
     public abstract void talk();
 }
