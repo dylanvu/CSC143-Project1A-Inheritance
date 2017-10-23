@@ -13,9 +13,13 @@ public class Main {
         System.out.println();
 
         zoo.allTalk();
+        System.out.println();
+
         zoo.timePasses();
         zoo.timePasses();
         zoo.timePasses();
+        System.out.println();
+        
         zoo.feedAll();
     }
 }
