@@ -19,7 +19,7 @@ public class Main {
         zoo.timePasses();
         zoo.timePasses();
         System.out.println();
-        
+
         zoo.feedAll();
     }
 }

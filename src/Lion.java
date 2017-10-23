@@ -3,6 +3,7 @@ public class Lion extends Animal {
         super();
     }
 
+    @Override
     public void timePasses() {
         super.timePasses();
 
@@ -15,6 +16,7 @@ public class Lion extends Animal {
         System.out.println("Lion: \"Roar!\".");
     }
 
+    @Override
     public String toString() {
         return "Lion";
     }

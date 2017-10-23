@@ -3,6 +3,7 @@ public class Bear extends Animal {
         super();
     }
 
+    @Override
     public void feed() {
         super.feed();
 
@@ -13,6 +14,7 @@ public class Bear extends Animal {
         System.out.println("Bear: \"Roar!\".");
     }
 
+    @Override
     public String toString() {
         return "Bear";
     }

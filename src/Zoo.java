@@ -1,7 +1,7 @@
 public class Zoo {
-    Animal cage1;
-    Animal cage2;
-    Animal cage3;
+    private Animal cage1;
+    private Animal cage2;
+    private Animal cage3;
 
     public Zoo() {
         this.cage1 = null;

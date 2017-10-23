@@ -7,6 +7,7 @@ public class Zebra extends Animal {
         System.out.println("The Zebra quietly chews.");
     }
 
+    @Override
     public String toString() {
         return "Zebra";
     }
